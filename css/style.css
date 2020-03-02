@@ -1576,8 +1576,8 @@ h3 {
 .slider_area .single_slider .slider_text span {
   font-size: 30px;
   font-weight: 400;
-  color: #FF4533;
-  font-family: "Anton", sans-serif;
+  color: #33ccff;
+  font-family: "Arial", sans-serif;
 }
 
 @media (max-width: 767px) {
@@ -1589,7 +1589,7 @@ h3 {
 
 /* line 65, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text h3 {
-  font-family: "Monoton", cursive;
+  font-family: "himagsikan" , normal;
   font-size: 122px;
   text-transform: uppercase;
   font-weight: 400;
@@ -2525,7 +2525,7 @@ h3 {
 
 /* line 90, ../../Arafath/CL/December/236. Event-02/HTML/scss/_program_details.scss */
 .program_details_area .program_detail_wrap .single_propram .porgram_top span {
-  color: #FF4533;
+  color:#1de9b6;
   font-size: 30px;
   font-family: "Anton", sans-serif;
   display: block;
