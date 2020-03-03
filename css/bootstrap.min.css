@@ -227,6 +227,13 @@ img {
     border-style: none
 }
 
+#imglogo {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none
+}
+
 svg:not(:root) {
     overflow: hidden
 }
@@ -9205,8 +9212,8 @@ a.text-dark:hover {
 
 @media print {
     *,
-    ::after,
-    ::before {
+     ::after,
+     ::before {
         text-shadow: none!important;
         box-shadow: none!important
     }
