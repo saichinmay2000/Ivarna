@@ -1781,7 +1781,7 @@ h3 {
 /* line 1, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
 
 .slider_bg_1 {
-    background-image: url(../img/banner/banner.png);
+    background-image: url(../index_bg.png);
 }
 
 
@@ -7043,6 +7043,15 @@ h6 {
 
 /*# sourceMappingURL=style.css.map */
 
-.container {
-    width: 100%;
+.card:hover::after {
+    transition: 0.5s ease-in;
+    transform: translate3d(5px, 0, 50px);
+}
+
+.card-body {
+    height: 300px;
+    border: solid 2px orange;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
