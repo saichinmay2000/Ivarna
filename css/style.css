@@ -1,10 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Anton|Monoton|Muli:400,400i,500,500i,600&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Anton|Monoton|Muli:400,400i,500,500i,600&display=swap");
-@import url("Samsiddhi_new\css\caro.css");
-@import url("Samsiddhi_new\css\btstpc.css");
-
-/* line 1, ../../Arafath/CL/December/236. Event-02/HTML/scss/_extend.scss */
-
+@import url('https://fonts.googleapis.com/css?family=Bellota&display=swap');
 .flex-center-start {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -16,42 +12,6 @@
     -ms-flex-pack: start;
     justify-content: start;
 }
-
-
-/* Normal desktop :1200px. */
-
-
-/* Normal desktop :992px. */
-
-
-/* Tablet desktop :768px. */
-
-
-/* small mobile :320px. */
-
-
-/* Large Mobile :480px. */
-
-
-/* 1. Theme default css */
-
-
-/* Normal desktop :1200px. */
-
-
-/* Normal desktop :992px. */
-
-
-/* Tablet desktop :768px. */
-
-
-/* small mobile :320px. */
-
-
-/* Large Mobile :480px. */
-
-
-/* line 6, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
 
 body {
     font-family: "Muli", sans-serif;
@@ -113,7 +73,7 @@ a:hover,
 
 a,
 button {
-    color: #1F1F1F;
+    color: rgb(211, 4, 4);
     outline: medium none;
 }
 
@@ -182,12 +142,22 @@ li {
 
 p {
     font-size: 20px;
-    color: #AAB1B7;
+    color: #000;
     line-height: 32px;
     margin-bottom: 0;
     font-weight: 400;
     margin-bottom: 0px;
-    font-family: "Muli", sans-serif;
+    font-family: "Bellota", cursive;
+}
+
+#foot {
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 32px;
+    margin-bottom: 0;
+    font-weight: 400;
+    margin-bottom: 0px;
+    font-family: "Bellota", cursive;
 }
 
 
@@ -343,11 +313,11 @@ h3 {
     position: absolute;
     content: "";
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&1+0,0.8+100 */
-    background: -moz-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.8) 100%);
+    background: -moz-linear-gradient(top, #c79fb0 0%, rgba(0, 0, 0, 0.8) 100%);
     /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.8) 100%);
+    background: -webkit-linear-gradient(top, #c9e5e4 0%, rgba(0, 0, 0, 0.8) 100%);
     /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0.8) 100%);
+    background: linear-gradient(to bottom, #94bbe9 0%, rgba(0, 0, 0, 0.8) 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#cc000000', GradientType=0);
     /* IE6-9 */
@@ -1781,7 +1751,7 @@ h3 {
 /* line 1, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
 
 .slider_bg_1 {
-    background-image: url(../index_bg.png);
+    background-image: url(../test.png);
 }
 
 
@@ -7054,4 +7024,32 @@ h6 {
     overflow: scroll;
     overflow-x: hidden;
     overflow-y: scroll;
+}
+
+.buy_tkt1 .book_btn1 a {
+    background: #FF4533;
+    font-family: "Anton", sans-serif;
+    padding: 12px 46px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid transparent;
+    color: #fff;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    text-transform: capitalize;
+}
+
+.buy_tkt1 .book_btn1 a:hover {
+    border-color: #FF4533;
+    color: #FF4533;
+    background: transparent;
+}
+
+@media screen and (max-width: 600px) {
+    .logo {}
+}
+
+#tech_events {
+    transition: all 0.3s ease 0s;
 }
